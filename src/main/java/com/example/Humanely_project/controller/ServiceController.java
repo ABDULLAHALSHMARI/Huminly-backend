@@ -4,10 +4,10 @@ import com.example.Humanely_project.model.Entities.Services;
 import com.example.Humanely_project.model.Services.ServicesService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 import java.util.Optional;
 
+@CrossOrigin(origins = "http://humanlyhelp.herokuapp.com")
 @RestController
 @RequestMapping(path = "api/services")
 public class ServiceController {

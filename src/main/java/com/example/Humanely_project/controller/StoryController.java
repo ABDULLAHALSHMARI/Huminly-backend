@@ -6,10 +6,10 @@ import com.example.Humanely_project.model.Services.FoodService;
 import com.example.Humanely_project.model.Services.StoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 import java.util.Optional;
 
+@CrossOrigin(origins = "http://humanlyhelp.herokuapp.com")
 @RestController
 @RequestMapping("api/Story")
 public class StoryController {
